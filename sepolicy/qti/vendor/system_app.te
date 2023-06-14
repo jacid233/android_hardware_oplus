@@ -1,0 +1,4 @@
+rw_dir_file(system_app, vendor_sysfs_graphics)
+rw_dir_file(system_app, vendor_sysfs_kgsl)
+rw_dir_file(system_app, vendor_proc_display)
+rw_dir_file(system_app, vendor_proc_wireless)
