@@ -13,6 +13,8 @@ allow hal_fingerprint_default vendor_proc_tee_bind_core:file w_file_perms;
 allow hal_fingerprint_default vendor_qdsp_device:chr_file rw_file_perms;
 allow hal_fingerprint_default vendor_xdsp_device:chr_file rw_file_perms;
 
+allow hal_fingerprint_default vendor_adsprpc_prop:file read;
+
 rw_dir_file(hal_fingerprint_default, vendor_proc_display)
 rw_dir_file(hal_fingerprint_default, vendor_proc_fingerprint)
 r_dir_file(hal_fingerprint_default, vendor_sysfs_graphics)
