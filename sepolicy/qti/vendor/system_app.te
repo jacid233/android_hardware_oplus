@@ -1,6 +1,9 @@
 # Zram
 allow system_app proc_pagetypeinfo:file read;
+allow system_app proc_pagetypeinfo:file open;
 allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:dir open;
+allow system_app sysfs_zram:dir read;
 
 rw_dir_file(system_app, vendor_sysfs_graphics)
 rw_dir_file(system_app, vendor_sysfs_kgsl)
